@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    min-height: 248px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #FED700;
+}
+
+.heading {
+    margin: 0 0 20px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.text {
+    width: fit-content;
+    margin: 0 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.text:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.02), 0px 2px 16px rgba(96, 97, 112, 0.16);
+    color: #FF8F27;
+}
+
+.hide {
+    opacity: 0;
+    cursor: default;
+}
